@@ -3,7 +3,6 @@
 namespace Filafly\Icons\Carbon;
 
 use Filafly\Icons\Carbon\Enums\Carbon;
-use Filafly\Icons\Carbon\Enums\CarbonStyle;
 use Filafly\Icons\IconSet;
 use Filament\Actions\View\ActionsIconAlias;
 use Filament\Forms\View\FormsIconAlias;
@@ -20,10 +19,6 @@ class CarbonIcons extends IconSet
 
     protected mixed $iconEnum = Carbon::class;
 
-    protected mixed $styleEnum = CarbonStyle::class;
-
-    protected mixed $defaultStyle = CarbonStyle::Regular;
-
     protected array $iconMap = [
         // Panels icon aliases
         PanelsIconAlias::GLOBAL_SEARCH_FIELD => Carbon::Search,
@@ -34,10 +29,10 @@ class CarbonIcons extends IconSet
         PanelsIconAlias::RESOURCES_PAGES_EDIT_RECORD_NAVIGATION_ITEM => Carbon::Edit,
         PanelsIconAlias::RESOURCES_PAGES_MANAGE_RELATED_RECORDS_NAVIGATION_ITEM => Carbon::Group,
         PanelsIconAlias::RESOURCES_PAGES_VIEW_RECORD_NAVIGATION_ITEM => Carbon::View,
-        PanelsIconAlias::SIDEBAR_COLLAPSE_BUTTON => Carbon::CaretLeft,
-        PanelsIconAlias::SIDEBAR_COLLAPSE_BUTTON_RTL => Carbon::CaretRight,
-        PanelsIconAlias::SIDEBAR_EXPAND_BUTTON => Carbon::CaretRight,
-        PanelsIconAlias::SIDEBAR_EXPAND_BUTTON_RTL => Carbon::CaretLeft,
+        PanelsIconAlias::SIDEBAR_COLLAPSE_BUTTON => Carbon::ChevronLeft,
+        PanelsIconAlias::SIDEBAR_COLLAPSE_BUTTON_RTL => Carbon::ChevronRight,
+        PanelsIconAlias::SIDEBAR_EXPAND_BUTTON => Carbon::ChevronRight,
+        PanelsIconAlias::SIDEBAR_EXPAND_BUTTON_RTL => Carbon::ChevronLeft,
         PanelsIconAlias::SIDEBAR_GROUP_COLLAPSE_BUTTON => Carbon::CaretUp,
         PanelsIconAlias::TENANT_MENU_BILLING_BUTTON => Carbon::CurrencyDollar,
         PanelsIconAlias::TENANT_MENU_PROFILE_BUTTON => Carbon::Settings,
@@ -102,7 +97,7 @@ class CarbonIcons extends IconSet
         TablesIconAlias::ACTIONS_GROUP => Carbon::Group,
         TablesIconAlias::ACTIONS_OPEN_BULK_ACTIONS => Carbon::OverflowMenuVertical,
         TablesIconAlias::COLUMNS_COLLAPSE_BUTTON => Carbon::CaretDown,
-        TablesIconAlias::COLUMNS_ICON_COLUMN_FALSE => Carbon::ErrorOutline,
+        TablesIconAlias::COLUMNS_ICON_COLUMN_FALSE => Carbon::MisuseOutline,
         TablesIconAlias::COLUMNS_ICON_COLUMN_TRUE => Carbon::CheckmarkOutline,
         TablesIconAlias::EMPTY_STATE => Carbon::Close,
         TablesIconAlias::FILTERS_QUERY_BUILDER_CONSTRAINTS_BOOLEAN => Carbon::CheckmarkOutline,
@@ -122,7 +117,7 @@ class CarbonIcons extends IconSet
         // Notifications icon aliases
         NotificationsIconAlias::DATABASE_MODAL_EMPTY_STATE => Carbon::Close,
         NotificationsIconAlias::NOTIFICATION_CLOSE_BUTTON => Carbon::Close,
-        NotificationsIconAlias::NOTIFICATION_DANGER => Carbon::ErrorOutline,
+        NotificationsIconAlias::NOTIFICATION_DANGER => Carbon::MisuseOutline,
         NotificationsIconAlias::NOTIFICATION_INFO => Carbon::Information,
         NotificationsIconAlias::NOTIFICATION_SUCCESS => Carbon::CheckmarkOutline,
         NotificationsIconAlias::NOTIFICATION_WARNING => Carbon::Warning,
@@ -154,7 +149,7 @@ class CarbonIcons extends IconSet
         ActionsIconAlias::VIEW_ACTION_GROUPED => Carbon::View,
 
         // Infolists icon aliases
-        InfolistsIconAlias::COMPONENTS_ICON_ENTRY_FALSE => Carbon::ErrorOutline,
+        InfolistsIconAlias::COMPONENTS_ICON_ENTRY_FALSE => Carbon::MisuseOutline,
         InfolistsIconAlias::COMPONENTS_ICON_ENTRY_TRUE => Carbon::CheckmarkOutline,
 
         // Schema icon aliases
