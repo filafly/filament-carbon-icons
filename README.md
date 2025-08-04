@@ -1,5 +1,5 @@
 <p class="filament-hidden" align="center">
-    <img src="https://filafly.com/images/filafly-filament-carbon-icons.png" alt="Banner" style="width: 100%; max-width: 800px;" />
+    <img src="https://filafly.com/images/filafly-filament-carbon-icons.jpg" alt="Banner" style="width: 100%; max-width: 800px;" />
 </p>
 
 # Filament Carbon Icons
