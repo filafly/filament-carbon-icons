@@ -4,7 +4,7 @@
 
 # Filament Carbon Icons
 
-A Carbon icon set implementation for Filament 4.x, providing the full set of Carbon icons integrated with Filament's interface.
+A Carbon icon set implementation for Filament, providing the full set of Carbon icons integrated with Filament's interface.
 
 ## Installation
 
