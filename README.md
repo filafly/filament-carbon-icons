@@ -79,5 +79,9 @@ CarbonIcons::make()
 
 These methods are particularly useful since Carbon icons come in a single style, allowing you to customize the icon set to better fit your application's needs.
 
+## From FilaFly
+
+FilaFly also makes premium themes for Filament panels: Lucent, Prizm, Cypher and Citrus. [Browse the themes](https://filafly.com/themes?utm_source=github&utm_medium=readme&utm_campaign=carbon-icons).
+
 ## License
 The MIT License (MIT). Please see [License](LICENSE.md) for more information.
