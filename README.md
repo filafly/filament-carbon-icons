@@ -6,6 +6,8 @@
 
 A Carbon icon set implementation for Filament, providing the full set of Carbon icons integrated with Filament's interface.
 
+More about this package on FilaFly: [Carbon icons for Filament on FilaFly](https://filafly.com/plugins/carbon-icons).
+
 ## Installation
 
 You can install the package via composer:
